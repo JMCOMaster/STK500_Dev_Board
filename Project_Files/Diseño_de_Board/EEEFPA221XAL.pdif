@@ -1,0 +1,234 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "EEEFPA221XAL"
+      (family "CAP")
+      (package "CAP_EEEFPA221XAL")
+      (description "Aluminum_Electrolytic_Capacitors_-_SMD_10VDC_220uF_20%_6x8mm_AEC-Q200")
+      (attribute "PKG_TYPE" "CAP_EEEFPA221XAL")
+      (attribute "MF" "Panasonic")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "7.7mm")
+      (attribute "PACKAGE" "RADIAL-2_Panasonic")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/EEE-FPA221XAL/Panasonic/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "10-Oct-19")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/EEE-FPA221XAL/Panasonic/view-part/?ref=snap")
+      (attribute "MP" "EEE-FPA221XAL")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Panasonic")
+      (gate
+        (swap 1)
+        (symbol "EEEFPA221XAL")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+      )
+    )
+    (symbol "EEEFPA221XAL"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path
+          (arc (pt 90 100) (pt 58.47 -174.34) (pt 407.16 174.34) (start 70) (sweep 145))
+          (pt 90 -100)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 20.0 100.0) (pt 20.0 0.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -46.18 -55.31) (pt -11.18 -55.31) (pt -11.18 -60.31) (pt -46.18 -60.31) (pt -46.18 -55.31) (closed))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -31.18 -40.31) (pt -26.18 -40.31) (pt -26.18 -75.31) (pt -31.18 -75.31) (pt -31.18 -40.31) (closed))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 20.0 0.0) (pt 20.0 -100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 0.0) (pt 20.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 0.0) (pt 60.0 0.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -100.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (package "CAP_EEEFPA221XAL"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 -90.55) (pt -90.55 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 -129.92) (pt 129.92 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 129.92) (pt -90.55 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 129.92) (pt -129.92 90.55))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 90.55) (pt -129.92 44.09))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 -44.09) (pt -129.92 -90.55))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 44.09) (pt 129.92 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 -129.92) (pt 129.92 -44.09))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -167.32 53.15) (pt -159.45 53.15))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 90.55) (pt -129.92 -90.55))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 -90.55) (pt -90.55 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 -129.92) (pt 129.92 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 -129.92) (pt 129.92 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 129.92) (pt -90.55 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 129.92) (pt -129.92 90.55))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -167.32 53.15) (pt -159.45 53.15))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -171.26 41.34) (pt -139.76 41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 41.34) (pt 171.26 41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 171.26 41.34) (pt 171.26 -41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 171.26 -41.34) (pt 139.76 -41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 -41.34) (pt -171.26 -41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -171.26 -41.34) (pt -171.26 41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 41.34) (pt -139.76 95.47))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 95.47) (pt -95.47 139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -95.47 139.76) (pt 139.76 139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 139.76) (pt 139.76 41.34))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 -41.34) (pt 139.76 -139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 -139.76) (pt -95.47 -139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -95.47 -139.76) (pt -139.76 -95.47))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 -95.47) (pt -139.76 -41.34))
+        )
+      )
+      (leg 1 (pt -98.43 0) (padstack 1))
+      (leg 2 (pt 98.43 0) (padstack 2))
+      (padstack 1
+        (pad (layer TCOP) (rectf 62.99 125.98 0 0.0 0))
+        (pad (layer TRES) (rectf 62.99 125.98 0 0.0 0))
+        (pad (layer TPST) (rectf 62.99 125.98 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 62.99 125.98 0 0.0 0))
+        (pad (layer TRES) (rectf 62.99 125.98 0 0.0 0))
+        (pad (layer TPST) (rectf 62.99 125.98 0 0.0 0))
+      )
+      (model EEEFPA221XAL.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

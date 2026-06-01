@@ -1,0 +1,248 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "USBBSXXTHTR"
+      (family "CON")
+      (package "SAMTEC_USBBSXXTHTR")
+      (description "USB-B_(USB_TYPE-B)_USB_2.0_Receptacle_Connector_4_Position_Through_Hole,_Right_Angle")
+      (attribute "PKG_TYPE" "SAMTEC_USBBSXXTHTR")
+      (attribute "MF" "Samtec")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "10.95_mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/USB-B-S-S-B-TH-TR/Samtec/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "Q")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/USB-B-S-S-B-TH-TR/Samtec/view-part/?ref=snap")
+      (attribute "MP" "USB-B-S-S-B-TH-TR")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Samtec")
+      (gate
+        (swap 1)
+        (symbol "USBBSXXTHTR")
+        (pin "D+" 3 (type IO))
+        (pin "D-" 2 (type IO))
+        (pin "GND" 4 (type PP))
+        (pin "SHIELD" S1 (type PS))
+        (pin "SHIELD__1" S2 (type PS))
+        (pin "VCC" 1 (type PP))
+      )
+    )
+    (symbol "USBBSXXTHTR"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -200 300) (pt 200 300) (pt 200 -500) (pt -200 -500) (pt -200 300) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 -400.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "SAMTEC_USBBSXXTHTR"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (path (pt -238.19 228.35) (pt 238.19 228.35))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 238.19 228.35) (pt 238.19 79.13))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 238.19 -79.13) (pt 238.19 -409.45))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 238.19 -409.45) (pt -238.19 -409.45))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -238.19 -409.45) (pt -238.19 -79.13))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -238.19 79.13) (pt -238.19 228.35))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt 261.81 185.04) (pt 269.69 185.04))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 3.94)
+          (path (pt -238.19 228.35) (pt 238.19 228.35))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt 238.19 228.35) (pt 238.19 -409.45))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt 238.19 -409.45) (pt -238.19 -409.45))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt -238.19 -409.45) (pt -238.19 228.35))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt 261.81 185.04) (pt 269.69 185.04))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -248.03 238.19) (pt 248.03 238.19))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 248.03 238.19) (pt 248.03 75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 248.03 75.2) (pt 312.2 75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 312.2 75.2) (pt 312.2 -75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 312.2 -75.2) (pt 248.03 -75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 248.03 -75.2) (pt 248.03 -419.29))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 248.03 -419.29) (pt -248.03 -419.29))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -248.03 -419.29) (pt -248.03 -75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -248.03 -75.2) (pt -312.2 -75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -312.2 -75.2) (pt -312.2 75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -312.2 75.2) (pt -248.03 75.2))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -248.03 75.2) (pt -248.03 238.19))
+        )
+      )
+      (leg 3 (pt -49.21 106.3) (padstack 1))
+      (leg 2 (pt -49.21 185.04) (padstack 2))
+      (leg 4 (pt 49.21 106.3) (padstack 3))
+      (leg S1 (pt -237.01 0) (padstack 4))
+      (leg S2 (pt 237.01 0) (padstack 5))
+      (leg 1 (pt 49.21 185.04) (padstack 6))
+      (padstack 1
+        (hole 35)
+        (plated true)
+        (pad (layer TCOP) (round 55.43))
+        (pad (layer INNER) (round 55.43))
+        (pad (layer BCOP) (round 55.43))
+        (pad (layer TRES) (round 59.37))
+        (pad (layer BRES) (round 59.37))
+      )
+      (padstack 2
+        (hole 35)
+        (plated true)
+        (pad (layer TCOP) (round 55.43))
+        (pad (layer INNER) (round 55.43))
+        (pad (layer BCOP) (round 55.43))
+        (pad (layer TRES) (round 59.37))
+        (pad (layer BRES) (round 59.37))
+      )
+      (padstack 3
+        (hole 35)
+        (plated true)
+        (pad (layer TCOP) (round 55.43))
+        (pad (layer INNER) (round 55.43))
+        (pad (layer BCOP) (round 55.43))
+        (pad (layer TRES) (round 59.37))
+        (pad (layer BRES) (round 59.37))
+      )
+      (padstack 4
+        (hole 90)
+        (plated true)
+        (pad (layer TCOP) (round 130.55))
+        (pad (layer INNER) (round 130.55))
+        (pad (layer BCOP) (round 130.55))
+        (pad (layer TRES) (round 134.49))
+        (pad (layer BRES) (round 134.49))
+      )
+      (padstack 5
+        (hole 90)
+        (plated true)
+        (pad (layer TCOP) (round 130.55))
+        (pad (layer INNER) (round 130.55))
+        (pad (layer BCOP) (round 130.55))
+        (pad (layer TRES) (round 134.49))
+        (pad (layer BRES) (round 134.49))
+      )
+      (padstack 6
+        (hole 35)
+        (plated true)
+        (pad (layer TCOP) (square 55.43))
+        (pad (layer INNER) (square 55.43))
+        (pad (layer BCOP) (square 55.43))
+        (pad (layer TRES) (square 59.37))
+        (pad (layer BRES) (square 59.37))
+      )
+      (model U
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

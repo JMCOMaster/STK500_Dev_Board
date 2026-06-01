@@ -1,0 +1,234 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "EEEFK1J101P"
+      (family "CAP")
+      (package "CAP_EEEFK1J101P")
+      (description "100µF_63V_Aluminum_Electrolytic_Capacitors_Radial,_Can_-_SMD_2000_Hrs_@_105°C")
+      (attribute "PKG_TYPE" "CAP_EEEFK1J101P")
+      (attribute "MF" "Panasonic")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "10.2mm")
+      (attribute "PACKAGE" "RADIAL-2_Panasonic")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/EEEFK1J101P/Panasonic/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "10-Oct-19")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/EEEFK1J101P/Panasonic/view-part/?ref=snap")
+      (attribute "MP" "EEEFK1J101P")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Panasonic")
+      (gate
+        (swap 1)
+        (symbol "EEEFK1J101P")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+      )
+    )
+    (symbol "EEEFK1J101P"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path
+          (arc (pt 90 100) (pt 58.47 -174.34) (pt 407.16 174.34) (start 70) (sweep 145))
+          (pt 90 -100)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 20.0 100.0) (pt 20.0 0.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -46.18 -55.31) (pt -11.18 -55.31) (pt -11.18 -60.31) (pt -46.18 -60.31) (pt -46.18 -55.31) (closed))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -31.18 -40.31) (pt -26.18 -40.31) (pt -26.18 -75.31) (pt -31.18 -75.31) (pt -31.18 -40.31) (closed))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 20.0 0.0) (pt 20.0 -100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 0.0) (pt 20.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 0.0) (pt 60.0 0.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -100.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (package "CAP_EEEFK1J101P"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -202.76 -131.89) (pt -131.89 -202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -131.89 -202.76) (pt 202.76 -202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 202.76 202.76) (pt -131.89 202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -131.89 202.76) (pt -202.76 131.89))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -202.76 131.89) (pt -202.76 51.97))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -202.76 -51.97) (pt -202.76 -131.89))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 202.76 51.97) (pt 202.76 202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 202.76 -202.76) (pt 202.76 -51.97))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -251.97 82.68) (pt -244.09 82.68))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -202.76 131.89) (pt -202.76 -131.89))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -202.76 -131.89) (pt -131.89 -202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -131.89 -202.76) (pt 202.76 -202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 202.76 -202.76) (pt 202.76 202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 202.76 202.76) (pt -131.89 202.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -131.89 202.76) (pt -202.76 131.89))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -251.97 82.68) (pt -244.09 82.68))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -261.81 49.21) (pt -212.6 49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -212.6 49.21) (pt -212.6 136.81))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -212.6 136.81) (pt -136.81 212.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -136.81 212.6) (pt 212.6 212.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 212.6 212.6) (pt 212.6 49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 212.6 49.21) (pt 261.81 49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 261.81 49.21) (pt 261.81 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 261.81 -49.21) (pt 212.6 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 212.6 -49.21) (pt 212.6 -212.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 212.6 -212.6) (pt -136.81 -212.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -136.81 -212.6) (pt -212.6 -136.81))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -212.6 -136.81) (pt -212.6 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -212.6 -49.21) (pt -261.81 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -261.81 -49.21) (pt -261.81 49.21))
+        )
+      )
+      (leg 1 (pt -171.26 0) (padstack 1))
+      (leg 2 (pt 171.26 0) (padstack 2))
+      (padstack 1
+        (pad (layer TCOP) (rectf 78.74 161.42 0 0.0 0))
+        (pad (layer TRES) (rectf 78.74 161.42 0 0.0 0))
+        (pad (layer TPST) (rectf 78.74 161.42 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 78.74 161.42 0 0.0 0))
+        (pad (layer TRES) (rectf 78.74 161.42 0 0.0 0))
+        (pad (layer TPST) (rectf 78.74 161.42 0 0.0 0))
+      )
+      (model EEEFK1J101P.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

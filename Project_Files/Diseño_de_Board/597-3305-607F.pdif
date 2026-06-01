@@ -1,0 +1,193 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "5973305607F"
+      (family "DIO")
+      (package "LEDC2012X70N")
+      (description "SMD_LED_0805_G_7_|_Dialight_597-3305-607F")
+      (attribute "PKG_TYPE" "LEDC2012X70N")
+      (attribute "MF" "Dialight")
+      (attribute "PACKAGE" "0805_Dialight")
+      (attribute "PRICE" "None")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/597-3305-607F/Dialight/view-part/?ref=snap")
+      (attribute "MP" "597-3305-607F")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/597-3305-607F/Dialight/view-part/?ref=eda")
+      (gate
+        (swap 1)
+        (symbol "5973305607F")
+        (pin "A" A (type PS))
+        (pin "C" C (type PS))
+      )
+    )
+    (symbol "5973305607F"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 -50.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt 100.0 50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -50.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt 0.0 50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 -50.0) (pt 100.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 0.0) (pt 100.0 50.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 70.0 80.0) (pt 15.0 135.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 25.0 75.0) (pt -30.0 130.0))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt 15.0 135.0)
+          (pt 50.0 120.0)
+          (pt 30.0 100.0)
+          (pt 15.0 135.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -30.0 130.0)
+          (pt 5.0 115.0)
+          (pt -15.0 95.0)
+          (pt -30.0 130.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -200.0 0.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 0.0) (pt 300.0 0.0))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 400.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (package "LEDC2012X70N"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt -82.68 0) (pt -74.8 0))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -7.87 23.62) (pt 7.87 23.62))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -7.87 -23.62) (pt 7.87 -23.62))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 7.87)
+          (path (pt -39.37 23.62) (pt 39.37 23.62))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 39.37 23.62) (pt 39.37 -23.62))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 39.37 -23.62) (pt -39.37 -23.62))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -39.37 -23.62) (pt -39.37 23.62))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt -39.37 23.62) (pt -19.69 23.62) (pt -19.69 -23.62) (pt -39.37 -23.62) (pt -39.37 23.62) (closed))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt 19.69 23.62) (pt 39.37 23.62) (pt 39.37 -23.62) (pt 19.69 -23.62) (pt 19.69 23.62) (closed))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -66.93 39.37) (pt 66.93 39.37))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 66.93 -39.37) (pt -66.93 -39.37))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -66.93 -39.37) (pt -66.93 39.37))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 66.93 39.37) (pt 66.93 -39.37))
+        )
+      )
+      (leg A (pt 35.43 0) (padstack 1))
+      (leg C (pt -35.43 0) (padstack 2))
+      (padstack 1
+        (pad (layer TCOP) (rectf 43.31 57.09 0 0.0 90.0))
+        (pad (layer TRES) (rectf 43.31 57.09 0 0.0 90.0))
+        (pad (layer TPST) (rectf 43.31 57.09 0 0.0 90.0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 43.31 57.09 0 0.0 90.0))
+        (pad (layer TRES) (rectf 43.31 57.09 0 0.0 90.0))
+        (pad (layer TPST) (rectf 43.31 57.09 0 0.0 90.0))
+      )
+      (model 597-3305-607F.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

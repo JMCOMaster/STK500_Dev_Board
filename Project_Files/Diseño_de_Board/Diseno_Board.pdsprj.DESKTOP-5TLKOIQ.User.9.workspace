@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activeWindow="0">
+  <PLACEMENT>01d9d0cb00030000fffffffffffffff700000780000003fcffffff1f0000004a0000069e0000042800000000020000000780000000000000001d0000077f000003fb</PLACEMENT>
+  <WINDOW module="ISIS" mode="00050a00" type="default" index="0"/>
+  <WINDOW module="ARES" mode="00060a00" type="default" index="0"/>
+  <WINDOW module="VIEW3D" mode="00060a00" type="VIEW3D" index="0">
+   <camera>
+    <position x="-20164910" z="8408195" y="7885134"/>
+    <focus x="-9486067" z="-554877" y="7850133"/>
+    <up x="642827" z="765924" y="-10303"/>
+   </camera>
+  </WINDOW>
+ </FRAME>
+ <MODULE name="ARES">
+  <editor snap="10000" gridmajor="10000000" flipped="0" scale="172" gridmode="2" zoom="-1" metric="1" orgmode="0" xcursor="0" snaprange="73837" gridminor="400000" snapidx="0">
+   <centre x="-6000000" y="7000000"/>
+   <origin x="0" y="0"/>
+   <world y1="-12700000" x1="-15240000" x2="15240000" y2="12700000"/>
+  </editor>
+ </MODULE>
+ <MODULE name="VSMDEBUG">
+  <PWI/>
+ </MODULE>
+ <MODULE name="VSMEDIT">
+  <EDITOR/>
+ </MODULE>
+ <MODULE name="GVIEW">
+  <editor snap="127000" gridmajor="2540000" flipped="0" scale="252" gridmode="2" zoom="-1" metric="0" orgmode="0" xcursor="0" snaprange="63500" gridminor="127000" snapidx="3">
+   <centre x="-8580199" y="4953000"/>
+   <origin x="0" y="0"/>
+   <world y1="-1" x1="-14000000" x2="2000000" y2="12000000"/>
+  </editor>
+ </MODULE>
+ <MODULE name="ISIS">
+  <editor snap="127000" gridmajor="2540000" flipped="0" scale="118" gridmode="2" zoom="0" metric="0" orgmode="0" xcursor="0" snaprange="107627" gridminor="254000" snapidx="1">
+   <centre x="0" y="0"/>
+   <origin x="0" y="0"/>
+   <world y1="-8890000" x1="-12700000" x2="12700000" y2="8890000"/>
+  </editor>
+ </MODULE>
+</WORKSPACE>

@@ -1,0 +1,159 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "P160KN0QC15B500K"
+      (family "ANA")
+      (package "P160")
+      (description "Res_Conductive_Plastic_POT_500K_Ohm_20%_0.2W(1/5W)_1(Elec)/1(Mech)Turns_6mm_(24.5_X_17_X_21mm)_Pin_P")
+      (attribute "PKG_TYPE" "P160")
+      (attribute "MF" "BI_Technologies_(TT_electronics)")
+      (attribute "PACKAGE" "None")
+      (attribute "PARTNO" "987-1304-ND")
+      (attribute "PRICE" "None")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/P160KN-0QC15B500K/BI+Technologies/view-part/?ref=snap")
+      (attribute "MP" "P160KN-0QC15B500K")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/P160KN-0QC15B500K/BI+Technologies/view-part/?ref=eda")
+      (gate
+        (swap 1)
+        (symbol "POT")
+        (pin "1" 1 (type IO))
+        (pin "2" 2 (type IO))
+        (pin "3" 3 (type IO))
+      )
+    )
+    (symbol "POT"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 0.0) (pt 100.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 0.0) (pt 100.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 -100.0) (pt -100.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -200.0) (pt 0.0 -250.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -250.0) (pt 0.0 -300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 100.0) (pt -100.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 200.0) (pt 0.0 250.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 250.0) (pt 0.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -200.0 50.0) (pt -150.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -150.0 0.0) (pt -200.0 -50.0))
+      )
+      (terminal
+        (body (symbol "PIN_R270_U_L100") (pt 0.0 400.0) (rot 0) (mir 0) (visible true))
+        (name (pt -0.0 -139.37) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt 0.0 -400.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+    )
+    (symbol "PIN_R270_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -0.0 -100.0))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R90_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 0.0 100.0))
+      )
+    )
+    (package "P160"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt 354.33 236.22) (pt 354.33 -236.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 354.33 -236.22) (pt -354.33 -236.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -354.33 -236.22) (pt -354.33 236.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -354.33 236.22) (pt 354.33 236.22))
+        )
+      )
+      (leg 1 (pt -196.85 0) (padstack 1))
+      (leg 2 (pt 0 0) (padstack 2))
+      (leg 3 (pt 196.85 0) (padstack 3))
+      (padstack 1
+        (hole 47)
+        (plated true)
+        (pad (layer TCOP) (round 70.87))
+        (pad (layer INNER) (round 70.87))
+        (pad (layer BCOP) (round 70.87))
+        (pad (layer TRES) (round 74.8))
+        (pad (layer BRES) (round 74.8))
+      )
+      (padstack 2
+        (hole 47)
+        (plated true)
+        (pad (layer TCOP) (round 70.87))
+        (pad (layer INNER) (round 70.87))
+        (pad (layer BCOP) (round 70.87))
+        (pad (layer TRES) (round 74.8))
+        (pad (layer BRES) (round 74.8))
+      )
+      (padstack 3
+        (hole 47)
+        (plated true)
+        (pad (layer TCOP) (round 70.87))
+        (pad (layer INNER) (round 70.87))
+        (pad (layer BCOP) (round 70.87))
+        (pad (layer TRES) (round 74.8))
+        (pad (layer BRES) (round 74.8))
+      )
+    )
+  )
+)

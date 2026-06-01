@@ -1,0 +1,322 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "EJ508A"
+      (family "CON")
+      (package "MPD_EJ508A")
+      (description "Power_Barrel_Connector_Jack_2.10mm_ID_(0.083),_5.50mm_OD_(0.217)_Through_Hole,_Right_Angle")
+      (attribute "PKG_TYPE" "MPD_EJ508A")
+      (attribute "MF" "MPD_(Memory_Protection_Devices)")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "10.85_mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/EJ508A/MPD/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "J")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/EJ508A/MPD/view-part/?ref=snap")
+      (attribute "MP" "EJ508A")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "MPD")
+      (gate
+        (swap 1)
+        (symbol "EJ508A")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+        (pin "3" 3 (type PS))
+      )
+    )
+    (symbol "EJ508A"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 137.5) (pt 0.0 62.5))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 62.5) (pt -25.0 62.5))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 62.5) (pt -25.0 75.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 75.0) (pt -25.0 125.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 125.0) (pt -25.0 137.5))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 137.5) (pt 0.0 137.5))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 125.0) (pt -175.0 125.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path
+          (arc (pt -175 125) (pt -200 75) (pt -150 125) (start 90) (sweep 90))
+          (pt -200 100)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path
+          (arc (pt -200 100) (pt -200 75) (pt -150 125) (start 90) (sweep 180))
+          (pt -175 75)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -175.0 75.0) (pt -25.0 75.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -100.0) (pt -100.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -100.0) (pt -200.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -200.0 -100.0) (pt -225.0 -50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -225.0 -50.0) (pt -250.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 0.0) (pt -100.0 -100.0))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 200.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 200.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "MPD_EJ508A"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -99.21 136.81) (pt -173.23 136.81))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 136.81) (pt -173.23 -422.83))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 -422.83) (pt 173.23 -422.83))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 173.23 -422.83) (pt 173.23 -87.4))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 99.21 136.81) (pt 173.23 136.81))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 173.23 136.81) (pt 173.23 87.4))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -3.94 175.2) (pt 3.94 175.2))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 6)
+          (path (pt 169.69 60.04) (pt 199.61 60.04))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 199.61 60.04) (pt 199.61 -60.04))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 199.61 -60.04) (pt 169.69 -60.04))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 169.69 -60.04) (pt 169.69 60.04))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt -60.04 -142.91) (pt -60.04 -112.99))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt -60.04 -112.99) (pt 60.04 -112.99))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 60.04 -112.99) (pt 60.04 -142.91))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 60.04 -142.91) (pt -60.04 -142.91))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt -70.08 86.42) (pt -70.08 126.57))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt -70.08 126.57) (pt 70.08 126.57))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 70.08 126.57) (pt 70.08 86.42))
+        )
+        (graphic
+          (stroke 6)
+          (path (pt 70.08 86.42) (pt -70.08 86.42))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 136.81) (pt -173.23 108.66))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 108.66) (pt -173.23 -288.98))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 -288.98) (pt -173.23 -422.83))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 -422.83) (pt 173.23 -422.83))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 173.23 -422.83) (pt 173.23 -288.98))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 173.23 -288.98) (pt 173.23 108.66))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 173.23 108.66) (pt 173.23 136.81))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 173.23 136.81) (pt -173.23 136.81))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 -288.98) (pt 173.23 -288.98))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -173.23 108.66) (pt 173.23 108.66))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -3.94 175.2) (pt 3.94 175.2))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -183.07 159.45) (pt -183.07 -432.68))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -183.07 -432.68) (pt 183.07 -432.68))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 183.07 159.45) (pt -183.07 159.45))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 183.07 159.45) (pt 183.07 84.65))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 183.07 84.65) (pt 231.89 84.65))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 231.89 84.65) (pt 231.89 -84.65))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 231.89 -84.65) (pt 183.07 -84.65))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 183.07 -84.65) (pt 183.07 -432.68))
+        )
+      )
+      (leg 1 (pt 0 106.5) (padstack 1))
+      (leg 2 (pt 0 -127.95) (padstack 2))
+      (leg 3 (pt 184.65 0) (padstack 3))
+      (padstack 1
+        (slot 40 40 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 86.61 173.23 0 179.99))
+        (pad (layer INNER) (ovalf 86.61 173.23 0 179.99))
+        (pad (layer BCOP) (ovalf 86.61 173.23 0 179.99))
+        (pad (layer TRES) (ovalf 86.61 173.23 0 179.99))
+        (pad (layer BRES) (ovalf 86.61 173.23 0 179.99))
+      )
+      (padstack 2
+        (slot 29 29 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 74.8 149.61 0 179.99))
+        (pad (layer INNER) (ovalf 74.8 149.61 0 179.99))
+        (pad (layer BCOP) (ovalf 74.8 149.61 0 179.99))
+        (pad (layer TRES) (ovalf 74.8 149.61 0 179.99))
+        (pad (layer BRES) (ovalf 74.8 149.61 0 179.99))
+      )
+      (padstack 3
+        (slot 29 29 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 74.8 149.61 0 90.0))
+        (pad (layer INNER) (ovalf 74.8 149.61 0 90.0))
+        (pad (layer BCOP) (ovalf 74.8 149.61 0 90.0))
+        (pad (layer TRES) (ovalf 74.8 149.61 0 90.0))
+        (pad (layer BRES) (ovalf 74.8 149.61 0 90.0))
+      )
+      (model EJ508A.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
