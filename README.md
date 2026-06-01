@@ -1,7 +1,7 @@
 # STK500 Developer Board
 
 <p align="center">
-  <img src="Graphics/STK500_Developer_Board.png" alt="STK500 Developer Board" width="800">
+  <img src="Graphics/PCB_Overview.png" alt="STK500 Developer Board" width="800">
 </p>
 
 ## Overview
