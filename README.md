@@ -74,6 +74,8 @@ STK500_Dev_Board
 ├── Scripts/
 │   ├── BOARD_TEST_CODE/
 │   └── LED_TEST_CODE/
+│   └── BUTTON_BOARD_D20_TEST_CODE/
+│   └── BUTTON_BOARD_COUNTER_TEST_CODE/
 │
 ├── Project_Files/
 │   ├── Schematic files
